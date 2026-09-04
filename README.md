@@ -1,4 +1,21 @@
-# React + Vite
+# CampusBite
+
+CampusBite is a simple campus canteen ordering app for students. Browse the menu, choose a pickup slot, and collect your order without waiting in line.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+The app currently stores menu, cart, and order data in the browser with `localStorage`; it does not connect to a backend yet.
+
+## Build
+
+```bash
+npm run build
+```
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
